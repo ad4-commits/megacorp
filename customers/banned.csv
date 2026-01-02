@@ -1,0 +1,8 @@
+first_name,last_name,company,title
+Ballan,Agrandian,Boots.lore,Protagonist
+sam,ctrlman,closedai,ceo
+EOF# Create the file with different content
+cat > customers/banned.csv << 'EOF'
+first_name,last_name,company,title
+Ballan,Agrandian,Boots.lore,Protagonist
+sam,ctrlman,closedai,ceo
